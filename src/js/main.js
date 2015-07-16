@@ -48,7 +48,7 @@ $(window).load(function() {
 			matchContains: true,
 			scrollHeight: 200,
 			max: 20,
-			width: 300,
+			width: 520,
 			noRecord: '',
 			highlight: function(value, term) {
 				var term = term.toUpperCase().replace(/([\^\$\(\)\[\]\{\}\*\.\+\?\|\\])/gi, "\\$1").replace(/[A-Z0-9]/g, function(m, offset) {
